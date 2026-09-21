@@ -1,0 +1,475 @@
+Sep 20 23:24:30 linuxvm kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Sep 20 23:24:37 linuxvm augenrules[981]: failure 1
+Sep 20 23:24:37 linuxvm augenrules[981]: failure 1
+Sep 20 23:24:37 linuxvm augenrules[981]: failure 1
+Sep 20 23:38:47 linuxvm kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Sep 20 23:38:54 linuxvm augenrules[1000]: failure 1
+Sep 20 23:38:54 linuxvm augenrules[1000]: failure 1
+Sep 20 23:38:54 linuxvm augenrules[1000]: failure 1
+Sep 20 23:38:54 linuxvm alsactl[1019]: alsa-lib main.c:1805:(snd_use_case_mgr_open) failed to import hw:0 use case configuration -2
+Sep 20 23:41:00 linuxvm /usr/libexec/gdm-wayland-session[1805]: dbus-daemon[1805]: [session uid=42 pid=1805] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1897]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1897]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1897]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:01 linuxvm gnome-shell[1897]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1936]: Failed to initialize glamor, falling back to sw
+Sep 20 23:41:01 linuxvm colord[1939]: failed to get edid data: EDID length is too small
+Sep 20 23:41:02 linuxvm /usr/libexec/gdm-wayland-session[1805]: dbus-daemon[1805]: [session uid=42 pid=1805] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:02 linuxvm gsd-sharing[1989]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:02 linuxvm gsd-sharing[1989]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:02 linuxvm gnome-shell[1897]: ibus_bus_call_async: assertion 'ibus_bus_is_connected (bus)' failed
+Sep 20 23:41:02 linuxvm gnome-shell[1897]: ibus_bus_call_async: assertion 'ibus_bus_is_connected (bus)' failed
+Sep 20 23:41:03 linuxvm gsd-media-keys[2029]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 20 23:41:03 linuxvm gsd-media-keys[2029]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 20 23:41:16 linuxvm gsd-media-keys[2029]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Sep 20 23:41:16 linuxvm systemd[2457]: app-gnome-xdg\x2duser\x2ddirs-2589.scope: Failed with result 'resources'.
+Sep 20 23:41:16 linuxvm systemd[2457]: Failed to start app-gnome-xdg\x2duser\x2ddirs-2589.scope - Application launched by gnome-session-binary.
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 20 23:41:17 linuxvm systemd[2457]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 20 23:41:17 linuxvm systemd[2457]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 20 23:41:17 linuxvm systemd[2457]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 20 23:41:17 linuxvm systemd[2457]: app-gnome-spice\x2dvdagent-2725.scope: Failed with result 'resources'.
+Sep 20 23:41:17 linuxvm systemd[2457]: Failed to start app-gnome-spice\x2dvdagent-2725.scope - Application launched by gnome-session-binary.
+Sep 20 23:41:17 linuxvm gnome-session[2562]: gnome-session-binary[2562]: GnomeDesktop-WARNING: Could not create transient scope for PID 2767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 20 23:41:17 linuxvm gnome-session-binary[2562]: GnomeDesktop-WARNING: Could not create transient scope for PID 2767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 20 23:41:18 linuxvm gsd-usb-protect[2736]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 20 23:41:19 linuxvm libcanberra-login-sound.desktop[2789]: Failed to play sound: File or data not found
+Sep 20 23:41:19 linuxvm gsd-media-keys[2716]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 20 23:41:19 linuxvm gsd-media-keys[2716]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 20 23:41:42 linuxvm nautilus[3364]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:42 linuxvm nautilus[3364]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:41:42 linuxvm nautilus[3364]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:42 linuxvm gnome-shell[3408]: Failed to initialize glamor, falling back to sw
+Sep 20 23:41:43 linuxvm gsd-xsettings[3411]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 20 23:41:43 linuxvm nautilus[3364]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:41:43 linuxvm nautilus[3364]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:43 linuxvm gvfsd-recent[3473]: Unable to load /home/vwali/.local/share/recently-used.xbel: Failed to open file “/home/vwali/.local/share/recently-used.xbel”: No such file or directory
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:42:29 linuxvm ptyxis[3579]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 00:11:09 linuxvm systemd: systemd-journald.service: Failed with result 'watchdog'.
+Sep 21 00:11:09 linuxvm systemd[1]: systemd-logind.service: Failed with result 'watchdog'.
+Sep 21 00:11:09 linuxvm systemd[1]: systemd-udevd.service: Failed with result 'watchdog'.
+Sep 21 00:28:00 linuxvm systemd-logind[3940]: Failed to start user service 'user@1000.service': Connection timed out
+Sep 21 00:28:01 linuxvm ModemManager[1081]: <wrn> [sleep-monitor-systemd] inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Remote peer disconnected
+Sep 21 00:28:01 linuxvm systemd[1]: systemd-udevd.service: Failed with result 'timeout'.
+Sep 21 00:28:01 linuxvm systemd[1]: Failed to start systemd-udevd.service - Rule-based Manager for Device Events and Files.
+Sep 21 00:28:01 linuxvm systemd[1]: systemd-logind.service: Failed with result 'timeout'.
+Sep 21 00:28:01 linuxvm systemd[1]: Failed to start systemd-logind.service - User Login Management.
+Sep 21 03:44:54 linuxvm systemd: user@42.service: Failed with result 'timeout'.
+Sep 21 03:44:54 linuxvm systemd: Failed to start user@42.service - User Manager for UID 42.
+Sep 21 03:44:54 linuxvm systemd: systemd-journald.service: Failed with result 'watchdog'.
+Sep 21 03:44:54 linuxvm gnome-shell[2590]: [atomic] Failed to disable device '/dev/dri/card0': drmModeAtomicCommit: Permission denied
+Sep 21 03:44:55 linuxvm dnf[3981]: Failed determining last makecache time.
+Sep 21 03:44:55 linuxvm systemd[1]: systemd-userdbd.service: Failed with result 'watchdog'.
+Sep 21 03:44:55 linuxvm /usr/libexec/gdm-wayland-session[4076]: dbus-daemon[4076]: [session uid=42 pid=4076] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:44:56 linuxvm /usr/libexec/gdm-wayland-session[4129]: dbus-daemon[4129]: [session uid=42 pid=4129] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:44:58 linuxvm org.gnome.Shell.desktop[4158]: Failed to setup: Failed to find any matching session
+Sep 21 03:44:58 linuxvm gnome-session-binary[4131]: Unrecoverable failure in required component org.gnome.Shell.desktop
+Sep 21 03:44:58 linuxvm gdm[1615]: Gdm: GdmDisplay: Session never registered, failing
+Sep 21 03:44:58 linuxvm gdm[1615]: Gdm: GdmDisplay: Session never registered, failing
+Sep 21 03:45:00 linuxvm /usr/libexec/gdm-wayland-session[4218]: dbus-daemon[4218]: [session uid=42 pid=4218] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:02 linuxvm gnome-shell[4232]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 03:45:02 linuxvm gnome-shell[4232]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 03:45:02 linuxvm org.gnome.Shell.desktop[4232]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:45:02 linuxvm org.gnome.Shell.desktop[4232]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:45:02 linuxvm org.gnome.Shell.desktop[4232]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:45:02 linuxvm gnome-shell[4232]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 03:45:03 linuxvm org.gnome.Shell.desktop[4267]: Failed to initialize glamor, falling back to sw
+Sep 21 03:45:08 linuxvm /usr/libexec/gdm-wayland-session[4218]: dbus-daemon[4218]: [session uid=42 pid=4218] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:08 linuxvm gsd-sharing[4326]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:08 linuxvm gsd-sharing[4326]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:12 linuxvm gsd-media-keys[4355]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 03:45:12 linuxvm gsd-media-keys[4355]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 03:45:13 linuxvm gnome-shell[4232]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 03:56:04 linuxvm gsd-media-keys[2716]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Sep 21 00:09:17 linuxvm kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.X11-unix/X0" failed, proceeding without lock: No such device or address
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.X11-unix/X1" failed, proceeding without lock: No such device or address
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.X11-unix/X1024" failed, proceeding without lock: No such device or address
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.X11-unix/X1025" failed, proceeding without lock: No such device or address
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.ICE-unix/1809" failed, proceeding without lock: No such device or address
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.ICE-unix/2562" failed, proceeding without lock: No such device or address
+Sep 21 00:09:22 linuxvm systemd-tmpfiles[963]: Opening file "/tmp/.ICE-unix/4219" failed, proceeding without lock: No such device or address
+Sep 21 00:09:23 linuxvm augenrules[1005]: failure 1
+Sep 21 00:09:23 linuxvm augenrules[1005]: failure 1
+Sep 21 00:09:23 linuxvm augenrules[1005]: failure 1
+Sep 21 00:09:23 linuxvm alsactl[1020]: alsa-lib main.c:1805:(snd_use_case_mgr_open) failed to import hw:0 use case configuration -2
+Sep 21 00:09:23 linuxvm rsyslogd[1138]: imjournal: fscanf on state file `/var/lib/rsyslog/imjournal.state' failed  [v8.2604.0-5.el10 try https://www.rsyslog.com/e/2027 ]
+Sep 21 09:14:07 linuxvm /usr/libexec/gdm-wayland-session[1406]: dbus-daemon[1406]: [session uid=42 pid=1406] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:07 linuxvm org.gnome.Shell.desktop[1420]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:07 linuxvm org.gnome.Shell.desktop[1420]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:07 linuxvm org.gnome.Shell.desktop[1420]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:07 linuxvm gnome-shell[1420]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 09:14:08 linuxvm org.gnome.Shell.desktop[1457]: Failed to initialize glamor, falling back to sw
+Sep 21 09:14:08 linuxvm colord[1460]: failed to get edid data: EDID length is too small
+Sep 21 09:14:09 linuxvm /usr/libexec/gdm-wayland-session[1406]: dbus-daemon[1406]: [session uid=42 pid=1406] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:09 linuxvm gsd-sharing[1514]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:09 linuxvm gsd-sharing[1514]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:09 linuxvm gnome-shell[1420]: ibus_bus_call_async: assertion 'ibus_bus_is_connected (bus)' failed
+Sep 21 09:14:09 linuxvm gnome-shell[1420]: ibus_bus_call_async: assertion 'ibus_bus_is_connected (bus)' failed
+Sep 21 09:14:10 linuxvm gsd-media-keys[1556]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 09:14:10 linuxvm gsd-media-keys[1556]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 09:14:21 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2108: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:21 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2108: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 09:14:22 linuxvm systemd[1979]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 21 09:14:22 linuxvm systemd[1979]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 21 09:14:22 linuxvm systemd[1979]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2260: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2260: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:23 linuxvm gsd-usb-protect[2241]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 09:14:24 linuxvm libcanberra-login-sound.desktop[2265]: Failed to play sound: File or data not found
+Sep 21 09:14:24 linuxvm gsd-media-keys[2215]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 09:14:24 linuxvm gsd-media-keys[2215]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 09:14:24 linuxvm gsd-media-keys[2215]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Sep 21 09:14:24 linuxvm gsd-media-keys[2215]: gvc_mixer_card_get_index: assertion 'GVC_IS_MIXER_CARD (card)' failed
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:07 linuxvm gnome-shell[2881]: Failed to initialize glamor, falling back to sw
+Sep 21 09:15:07 linuxvm gsd-xsettings[2884]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 09:15:07 linuxvm nautilus[2831]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:15:07 linuxvm gvfsd-recent[2948]: Unable to load /home/vwali/.local/share/recently-used.xbel: Failed to open file “/home/vwali/.local/share/recently-used.xbel”: No such file or directory
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:29 linuxvm ptyxis[3600]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:37 linuxvm ptyxis[3704]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:21:45 linuxvm ptyxis[3807]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:06 linuxvm ptyxis[4436]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:47:06 linuxvm gnome-shell[2109]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Operation was cancelled#012#012(No stack trace)
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:48:06 linuxvm gnome-control-c[4519]: Failed to register object: An object is already exported for the interface org.bluez.Agent1 at /org/gnome/bluetooth/settings
+Sep 21 09:49:58 linuxvm kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Sep 21 09:50:09 linuxvm systemd-tmpfiles[965]: Opening file "/tmp/.X11-unix/X1024" failed, proceeding without lock: No such device or address
+Sep 21 09:50:09 linuxvm systemd-tmpfiles[965]: Opening file "/tmp/.X11-unix/X1025" failed, proceeding without lock: No such device or address
+Sep 21 09:50:09 linuxvm systemd-tmpfiles[965]: Opening file "/tmp/.X11-unix/X0" failed, proceeding without lock: No such device or address
+Sep 21 09:50:09 linuxvm systemd-tmpfiles[965]: Opening file "/tmp/.X11-unix/X1" failed, proceeding without lock: No such device or address
+Sep 21 09:50:09 linuxvm systemd-tmpfiles[965]: Opening file "/tmp/.ICE-unix/1407" failed, proceeding without lock: No such device or address
+Sep 21 09:50:09 linuxvm systemd-tmpfiles[965]: Opening file "/tmp/.ICE-unix/2082" failed, proceeding without lock: No such device or address
+Sep 21 09:50:09 linuxvm augenrules[1004]: failure 1
+Sep 21 09:50:09 linuxvm augenrules[1004]: failure 1
+Sep 21 09:50:09 linuxvm augenrules[1004]: failure 1
+Sep 21 09:50:09 linuxvm alsactl[1022]: alsa-lib main.c:1805:(snd_use_case_mgr_open) failed to import hw:0 use case configuration -2
+Sep 21 09:54:19 linuxvm kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Sep 21 09:54:31 linuxvm augenrules[1004]: failure 1
+Sep 21 09:54:31 linuxvm augenrules[1004]: failure 1
+Sep 21 09:54:31 linuxvm augenrules[1004]: failure 1
+Sep 21 09:54:32 linuxvm alsactl[1058]: alsa-lib main.c:1805:(snd_use_case_mgr_open) failed to import hw:0 use case configuration -2
+Sep 21 09:54:33 linuxvm /usr/libexec/gdm-wayland-session[1258]: dbus-daemon[1258]: [session uid=42 pid=1258] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1273]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1273]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1273]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:34 linuxvm gnome-shell[1273]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1341]: Failed to initialize glamor, falling back to sw
+Sep 21 09:54:34 linuxvm colord[1344]: failed to get edid data: EDID length is too small
+Sep 21 09:54:35 linuxvm /usr/libexec/gdm-wayland-session[1258]: dbus-daemon[1258]: [session uid=42 pid=1258] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:35 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:35 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:36 linuxvm gsd-media-keys[1432]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 09:54:36 linuxvm gsd-media-keys[1432]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 09:54:51 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2003: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:51 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2003: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 09:54:53 linuxvm systemd[1875]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 21 09:54:53 linuxvm systemd[1875]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 21 09:54:53 linuxvm systemd[1875]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2122: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2122: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2131: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2131: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2145: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2145: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:54 linuxvm gsd-usb-protect[2177]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 09:54:55 linuxvm libcanberra-login-sound.desktop[2191]: Failed to play sound: File or data not found
+Sep 21 09:54:55 linuxvm gsd-media-keys[2115]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 09:54:55 linuxvm gsd-media-keys[2115]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 10:34:27 linuxvm systemd[1]: systemd-userdbd.service: Failed with result 'watchdog'.
+Sep 21 10:34:28 linuxvm systemd[1]: systemd-udevd.service: Failed with result 'watchdog'.
+Sep 21 12:43:47 linuxvm systemd: systemd-journald.service: Failed with result 'watchdog'.
+Sep 21 12:43:47 linuxvm systemd[1]: systemd-userdbd.service: Failed with result 'watchdog'.
+Sep 21 13:03:31 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:31 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 13:03:31 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:31 linuxvm gnome-shell[3116]: Failed to initialize glamor, falling back to sw
+Sep 21 13:03:32 linuxvm gsd-xsettings[3119]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 13:03:32 linuxvm gnome-background-panel.desktop[3038]: MESA: error: ZINK: failed to choose pdev
+Sep 21 13:03:32 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:35 linuxvm nautilus[3200]: MESA: error: ZINK: failed to choose pdev
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 13:03:36 linuxvm gvfsd-recent[3259]: Unable to load /home/vwali/.local/share/recently-used.xbel: Failed to open file “/home/vwali/.local/share/recently-used.xbel”: No such file or directory
+Sep 21 13:03:38 linuxvm gnome-control-c[3038]: Failed to pick backgrounds: Dismissed by user
+Sep 21 13:50:50 linuxvm gnome-shell[2006]: Cursor update failed: drmModeAtomicCommit: Invalid argument
+Sep 21 14:40:33 linuxvm kernel: acpi PNP0A03:00: fail to add MMCONFIG information, can't access extended configuration space under this bridge
+Sep 21 14:40:40 linuxvm systemd-tmpfiles[953]: Opening file "/tmp/.ICE-unix/1261" failed, proceeding without lock: No such device or address
+Sep 21 14:40:40 linuxvm systemd-tmpfiles[953]: Opening file "/tmp/.ICE-unix/1977" failed, proceeding without lock: No such device or address
+Sep 21 14:40:40 linuxvm systemd-tmpfiles[953]: Opening file "/tmp/.X11-unix/X1024" failed, proceeding without lock: No such device or address
+Sep 21 14:40:40 linuxvm systemd-tmpfiles[953]: Opening file "/tmp/.X11-unix/X1025" failed, proceeding without lock: No such device or address
+Sep 21 14:40:40 linuxvm systemd-tmpfiles[953]: Opening file "/tmp/.X11-unix/X0" failed, proceeding without lock: No such device or address
+Sep 21 14:40:40 linuxvm systemd-tmpfiles[953]: Opening file "/tmp/.X11-unix/X1" failed, proceeding without lock: No such device or address
+Sep 21 14:40:40 linuxvm augenrules[990]: failure 1
+Sep 21 14:40:40 linuxvm augenrules[990]: failure 1
+Sep 21 14:40:40 linuxvm augenrules[990]: failure 1
+Sep 21 14:40:40 linuxvm alsactl[1050]: alsa-lib main.c:1805:(snd_use_case_mgr_open) failed to import hw:0 use case configuration -2
+Sep 21 14:40:42 linuxvm /usr/libexec/gdm-wayland-session[1244]: dbus-daemon[1244]: [session uid=42 pid=1244] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1260]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1260]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1260]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:43 linuxvm gnome-shell[1260]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1328]: Failed to initialize glamor, falling back to sw
+Sep 21 14:40:43 linuxvm colord[1331]: failed to get edid data: EDID length is too small
+Sep 21 14:40:44 linuxvm /usr/libexec/gdm-wayland-session[1244]: dbus-daemon[1244]: [session uid=42 pid=1244] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:44 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:44 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:45 linuxvm gsd-media-keys[1434]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 14:40:45 linuxvm gsd-media-keys[1434]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 14:41:09 linuxvm systemd[1850]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 21 14:41:09 linuxvm systemd[1850]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 21 14:41:09 linuxvm systemd[1850]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2207: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2207: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2272: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2272: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gsd-usb-protect[2127]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 14:41:11 linuxvm gsd-media-keys[2100]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 14:41:11 linuxvm gsd-media-keys[2100]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 14:41:11 linuxvm libcanberra-login-sound.desktop[2290]: Failed to play sound: File or data not found
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:41:17 linuxvm gnome-shell[2755]: Failed to initialize glamor, falling back to sw
+Sep 21 14:41:17 linuxvm gsd-xsettings[2758]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 14:41:17 linuxvm ptyxis[2701]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:26 linuxvm gnome-shell[1981]: clutter_actor_set_allocation_internal: assertion '!isnan (box->x1) && !isnan (box->x2) && !isnan (box->y1) && !isnan (box->y2)' failed
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:12 linuxvm accounts-daemon[1016]: g_strv_equal: assertion 'strv1 != NULL' failed
+Sep 21 14:45:20 linuxvm systemd[1850]: dbus-:1.2-org.gnome.Ptyxis@0.service: Main process exited, code=exited, status=1/FAILURE
+Sep 21 14:45:20 linuxvm systemd[1850]: dbus-:1.2-org.gnome.Ptyxis@0.service: Failed with result 'exit-code'.
+Sep 21 14:45:21 linuxvm gnome-shell-calendar-server[2050]: gnome-shell-calendar-server[2050]: Lost (or failed to acquire) the name org.gnome.Shell.CalendarServer - exiting
+Sep 21 14:45:21 linuxvm /usr/libexec/gdm-wayland-session[3325]: dbus-daemon[3325]: [session uid=42 pid=3325] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3338]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3338]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3338]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:22 linuxvm gnome-shell[3338]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3373]: Failed to initialize glamor, falling back to sw
+Sep 21 14:45:23 linuxvm /usr/libexec/gdm-wayland-session[3325]: dbus-daemon[3325]: [session uid=42 pid=3325] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:23 linuxvm gsd-sharing[3415]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:23 linuxvm gsd-sharing[3415]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:23 linuxvm gsd-media-keys[3478]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 14:45:23 linuxvm gsd-media-keys[3478]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 14:45:31 linuxvm gnome-shell[3973]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:31 linuxvm gnome-shell[3973]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:31 linuxvm gnome-shell[3973]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:42 linuxvm gnome-shell[3973]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 14:45:42 linuxvm gnome-shell[3973]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 14:45:42 linuxvm gnome-shell[3973]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 14:45:43 linuxvm systemd[1850]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 21 14:45:43 linuxvm systemd[1850]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 21 14:45:43 linuxvm systemd[1850]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 21 14:45:43 linuxvm gnome-session[3947]: gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4101: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4101: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session[3947]: gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4123: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4123: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gsd-usb-protect[4134]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 14:45:43 linuxvm libcanberra-login-sound.desktop[4124]: Failed to play sound: File or data not found
+Sep 21 14:45:44 linuxvm gnome-shell[3973]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 14:45:44 linuxvm gsd-media-keys[4091]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 14:45:44 linuxvm gsd-media-keys[4091]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:45:47 linuxvm gnome-shell[4684]: Failed to initialize glamor, falling back to sw
+Sep 21 14:45:47 linuxvm gsd-xsettings[4687]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 14:45:47 linuxvm ptyxis[4648]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:46:39 linuxvm ptyxis[4648]: g_hash_table_insert_internal: assertion 'hash_table != NULL' failed
+Sep 21 14:46:39 linuxvm ptyxis[4648]: g_hash_table_remove_internal: assertion 'hash_table != NULL' failed
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:47:20 linuxvm ptyxis[4823]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:48:37 linuxvm ptyxis[4962]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:48:37 linuxvm ptyxis[4962]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:48:37 linuxvm ptyxis[4962]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:48:38 linuxvm ptyxis[4962]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:48:38 linuxvm ptyxis[4962]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:27 linuxvm ptyxis[5080]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:51:37 linuxvm ptyxis[5320]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:02 linuxvm systemd[1]: systemd-userdbd.service: Failed with result 'watchdog'.
+Sep 21 17:29:02 linuxvm systemd[1]: systemd-logind.service: Failed with result 'watchdog'.
+Sep 21 17:29:02 linuxvm systemd[1]: systemd-udevd.service: Failed with result 'watchdog'.
+Sep 21 17:29:04 linuxvm /usr/libexec/gdm-wayland-session[6839]: dbus-daemon[6839]: [session uid=42 pid=6839] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:05 linuxvm gnome-shell[6852]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 17:29:05 linuxvm gnome-shell[6852]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6852]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6852]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6852]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:05 linuxvm gnome-shell[6852]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6886]: Failed to initialize glamor, falling back to sw
+Sep 21 17:29:06 linuxvm /usr/libexec/gdm-wayland-session[6839]: dbus-daemon[6839]: [session uid=42 pid=6839] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:06 linuxvm gsd-sharing[6936]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:06 linuxvm gsd-sharing[6936]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:07 linuxvm gsd-media-keys[6984]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 17:29:07 linuxvm gsd-media-keys[6984]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 17:29:07 linuxvm gnome-shell[6852]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 18:05:47 linuxvm gnome-shell[3973]: Cursor update failed: drmModeAtomicCommit: Invalid argument
+Sep 21 20:41:12 linuxvm systemd: systemd-journald.service: Failed with result 'watchdog'.
+Sep 21 20:41:13 linuxvm systemd[1]: systemd-userdbd.service: Failed with result 'watchdog'.
+Sep 21 20:41:13 linuxvm systemd[1]: systemd-logind.service: Failed with result 'watchdog'.
+Sep 21 20:41:13 linuxvm systemd[1]: systemd-udevd.service: Failed with result 'watchdog'.
+Sep 21 20:41:15 linuxvm /usr/libexec/gdm-wayland-session[7835]: dbus-daemon[7835]: [session uid=42 pid=7835] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:16 linuxvm gnome-shell[7848]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 20:41:16 linuxvm gnome-shell[7848]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7848]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7848]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7848]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:41:16 linuxvm gnome-shell[7848]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7882]: Failed to initialize glamor, falling back to sw
+Sep 21 20:41:18 linuxvm /usr/libexec/gdm-wayland-session[7835]: dbus-daemon[7835]: [session uid=42 pid=7835] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:18 linuxvm gsd-sharing[7938]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:18 linuxvm gsd-sharing[7938]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:20 linuxvm gsd-media-keys[7989]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 20:41:20 linuxvm gsd-media-keys[7989]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 20:41:20 linuxvm gnome-shell[7848]: Failed to make thread 'KMS thread' high priority scheduled: Operation not permitted
+Sep 21 20:46:31 linuxvm systemd[1850]: dbus-:1.2-org.gnome.Ptyxis@4.service: Main process exited, code=exited, status=1/FAILURE
+Sep 21 20:46:31 linuxvm systemd[1850]: dbus-:1.2-org.gnome.Ptyxis@4.service: Failed with result 'exit-code'.
+Sep 21 20:46:31 linuxvm /usr/libexec/gdm-wayland-session[8717]: dbus-daemon[8717]: [session uid=42 pid=8717] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8737]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8737]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8737]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:31 linuxvm gnome-shell[8737]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 20:46:31 linuxvm gnome-shell-calendar-server[4036]: gnome-shell-calendar-server[4036]: Lost (or failed to acquire) the name org.gnome.Shell.CalendarServer - exiting
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8804]: Failed to initialize glamor, falling back to sw
+Sep 21 20:46:32 linuxvm /usr/libexec/gdm-wayland-session[8717]: dbus-daemon[8717]: [session uid=42 pid=8717] Activated service 'org.freedesktop.systemd1' failed: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:32 linuxvm gsd-sharing[8853]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:32 linuxvm gsd-sharing[8853]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:33 linuxvm gsd-media-keys[8888]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 20:46:33 linuxvm gsd-media-keys[8888]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: Failed to initialize accelerated iGPU/dGPU framebuffer sharing: Not hardware accelerated
+Sep 21 20:46:46 linuxvm systemd[9323]: Dependency failed for org.gnome.SettingsDaemon.XSettings.service - GNOME XSettings service.
+Sep 21 20:46:46 linuxvm systemd[9323]: org.gnome.SettingsDaemon.XSettings.service: Job org.gnome.SettingsDaemon.XSettings.service/start failed with result 'dependency'.
+Sep 21 20:46:46 linuxvm systemd[9323]: gnome-session-x11-services-ready.target: Job gnome-session-x11-services-ready.target/verify-active failed with result 'dependency'.
+Sep 21 20:46:47 linuxvm gnome-session[9426]: gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9588: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9588: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session[9426]: gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9633: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9633: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:48 linuxvm gsd-usb-protect[9581]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 20:46:49 linuxvm libcanberra-login-sound.desktop[9659]: Failed to play sound: File or data not found
+Sep 21 20:46:49 linuxvm gnome-shell[8737]: (../src/core/meta-context.c:596):meta_context_terminate: runtime check failed: (priv->state == META_CONTEXT_STATE_RUNNING)
+Sep 21 20:46:49 linuxvm gnome-shell[8737]: g_main_loop_is_running: assertion 'loop != NULL' failed
+Sep 21 20:46:49 linuxvm gnome-shell[8737]: (../src/core/meta-context.c:597):meta_context_terminate: runtime check failed: (g_main_loop_is_running (priv->main_loop))
+Sep 21 20:46:49 linuxvm gnome-shell[8737]: g_main_loop_quit: assertion 'loop != NULL' failed
+Sep 21 20:46:50 linuxvm gsd-media-keys[9570]: Failed to grab accelerator for keybinding settings:hibernate
+Sep 21 20:46:50 linuxvm gsd-media-keys[9570]: Failed to grab accelerator for keybinding settings:playback-repeat
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:01 linuxvm gnome-shell[10213]: Failed to initialize glamor, falling back to sw
+Sep 21 20:47:01 linuxvm gsd-xsettings[10216]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 20:47:01 linuxvm ptyxis[10157]: MESA: error: ZINK: failed to choose pdev
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:44 linuxvm ptyxis[10332]: MESA: error: ZINK: failed to choose pdev
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: egl: failed to create dri2 screen

@@ -1,0 +1,336 @@
+Sep 20 23:24:32 linuxvm kernel: Warning: Unmaintained driver is detected: e1000
+Sep 20 23:24:32 linuxvm kernel: Warning: Unmaintained driver is detected: e1000_init_module
+Sep 20 23:38:51 linuxvm systemctl[3969]: Warning: The unit file, source configuration file or drop-ins of man-db-cache-update.service changed on disk. Run 'systemctl daemon-reload' to reload units.
+Sep 20 23:38:48 linuxvm kernel: Warning: Unmaintained driver is detected: e1000
+Sep 20 23:38:48 linuxvm kernel: Warning: Unmaintained driver is detected: e1000_init_module
+Sep 20 23:38:54 linuxvm avahi-daemon[1020]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sep 20 23:41:00 linuxvm gnome-session[1809]: gnome-session-binary[1809]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:00 linuxvm gnome-session-binary[1809]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1897]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1897]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:01 linuxvm org.gnome.Shell.desktop[1897]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:02 linuxvm org.gnome.Shell.desktop[2193]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 20 23:41:02 linuxvm org.gnome.Shell.desktop[2193]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 20 23:41:03 linuxvm org.gnome.Shell.desktop[2220]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 20 23:41:03 linuxvm org.gnome.Shell.desktop[2220]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 20 23:41:03 linuxvm org.gnome.Shell.desktop[2220]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:16 linuxvm gnome-shell[2590]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:17 linuxvm gnome-session[2562]: gnome-session-binary[2562]: GnomeDesktop-WARNING: Could not create transient scope for PID 2767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 20 23:41:17 linuxvm gnome-session-binary[2562]: GnomeDesktop-WARNING: Could not create transient scope for PID 2767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 20 23:41:42 linuxvm nautilus[3364]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:42 linuxvm nautilus[3364]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:41:42 linuxvm nautilus[3364]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:43 linuxvm gnome-shell[3410]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 20 23:41:43 linuxvm gnome-shell[3410]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 20 23:41:43 linuxvm gnome-shell[3410]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 20 23:41:43 linuxvm nautilus[3364]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:41:43 linuxvm gnome-shell[3445]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 20 23:41:43 linuxvm gnome-shell[3445]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 20 23:41:43 linuxvm gvfsd[3496]: 2026-09-20 23:41:43,996:wsdd WARNING(pid 3496): no interface given, using all interfaces
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:42:29 linuxvm ptyxis[3579]: libEGL warning: egl: failed to create dri2 screen
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: failed to get driver name for fd -1
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:44:56 linuxvm gnome-session[4131]: gnome-session-binary[4131]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:44:56 linuxvm gnome-session-binary[4131]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:44:56 linuxvm gnome-session[4131]: gnome-session-binary[4131]: WARNING: Could not get session id for session. Check that logind is properly installed and pam_systemd is getting used at login.
+Sep 21 03:44:56 linuxvm gnome-session-binary[4131]: WARNING: Could not get session id for session. Check that logind is properly installed and pam_systemd is getting used at login.
+Sep 21 03:44:58 linuxvm gnome-session[4131]: gnome-session-binary[4131]: WARNING: App 'org.gnome.Shell.desktop' exited with code 1
+Sep 21 03:44:58 linuxvm gnome-session-binary[4131]: WARNING: App 'org.gnome.Shell.desktop' exited with code 1
+Sep 21 03:45:00 linuxvm gnome-session[4219]: gnome-session-binary[4219]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:00 linuxvm gnome-session-binary[4219]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:02 linuxvm org.gnome.Shell.desktop[4232]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:45:02 linuxvm org.gnome.Shell.desktop[4232]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:45:02 linuxvm org.gnome.Shell.desktop[4232]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4634]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4634]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4634]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4576]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4576]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 00:09:17 linuxvm kernel: Warning: Unmaintained driver is detected: e1000
+Sep 21 00:09:17 linuxvm kernel: Warning: Unmaintained driver is detected: e1000_init_module
+Sep 21 00:09:23 linuxvm avahi-daemon[1021]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sep 21 09:14:07 linuxvm gnome-session[1407]: gnome-session-binary[1407]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:07 linuxvm gnome-session-binary[1407]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:07 linuxvm org.gnome.Shell.desktop[1420]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:07 linuxvm org.gnome.Shell.desktop[1420]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:07 linuxvm org.gnome.Shell.desktop[1420]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1702]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1702]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1702]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1672]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1672]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1786]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1786]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1786]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1793]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1793]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1793]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 09:14:21 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2108: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:21 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2108: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:21 linuxvm gnome-shell[2109]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2260: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2260: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:07 linuxvm gnome-shell[2883]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 09:15:07 linuxvm gnome-shell[2883]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 09:15:07 linuxvm gnome-shell[2883]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 09:15:07 linuxvm nautilus[2831]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:15:07 linuxvm gnome-shell[2914]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 09:15:07 linuxvm gnome-shell[2914]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 09:15:08 linuxvm gvfsd[2972]: 2026-09-21 09:15:08,027:wsdd WARNING(pid 2972): no interface given, using all interfaces
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59cf284e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59ce5f8100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59cf285400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59cf284500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:29 linuxvm ptyxis[3600]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:16:37 linuxvm ptyxis[3704]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:21:45 linuxvm ptyxis[3807]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:06 linuxvm ptyxis[4436]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: failed to get driver name for fd -1
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:49:58 linuxvm kernel: Warning: Unmaintained driver is detected: e1000
+Sep 21 09:49:58 linuxvm kernel: Warning: Unmaintained driver is detected: e1000_init_module
+Sep 21 09:50:09 linuxvm avahi-daemon[1023]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sep 21 09:54:20 linuxvm kernel: Warning: Unmaintained driver is detected: e1000
+Sep 21 09:54:20 linuxvm kernel: Warning: Unmaintained driver is detected: e1000_init_module
+Sep 21 09:54:32 linuxvm avahi-daemon[1019]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sep 21 09:54:33 linuxvm gnome-session[1261]: gnome-session-binary[1261]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:33 linuxvm gnome-session-binary[1261]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1273]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1273]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:34 linuxvm org.gnome.Shell.desktop[1273]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:35 linuxvm org.gnome.Shell.desktop[1598]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 09:54:35 linuxvm org.gnome.Shell.desktop[1598]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 09:54:35 linuxvm org.gnome.Shell.desktop[1598]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 09:54:36 linuxvm org.gnome.Shell.desktop[1581]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 09:54:36 linuxvm org.gnome.Shell.desktop[1581]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 09:54:51 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2003: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:51 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2003: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:52 linuxvm gnome-shell[2006]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2122: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2122: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2131: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2131: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2145: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2145: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 13:03:31 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:31 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 13:03:31 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:32 linuxvm gnome-shell[3118]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 13:03:32 linuxvm gnome-shell[3118]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 13:03:32 linuxvm gnome-shell[3118]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 13:03:32 linuxvm gnome-background-panel.desktop[3038]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 13:03:32 linuxvm gnome-shell[3155]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 13:03:32 linuxvm gnome-shell[3155]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 13:03:35 linuxvm gvfsd[3218]: 2026-09-21 13:03:35,662:wsdd WARNING(pid 3218): no interface given, using all interfaces
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: failed to get driver name for fd -1
+Sep 21 13:03:35 linuxvm nautilus[3200]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:34 linuxvm kernel: Warning: Unmaintained driver is detected: e1000
+Sep 21 14:40:34 linuxvm kernel: Warning: Unmaintained driver is detected: e1000_init_module
+Sep 21 14:40:40 linuxvm avahi-daemon[1005]: WARNING: No NSS support for mDNS detected, consider installing nss-mdns!
+Sep 21 14:40:42 linuxvm gnome-session[1245]: gnome-session-binary[1245]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:42 linuxvm gnome-session-binary[1245]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1260]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1260]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:43 linuxvm org.gnome.Shell.desktop[1260]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1443]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1443]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1571]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1571]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1571]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:40:45 linuxvm org.gnome.Shell.desktop[1699]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:40:45 linuxvm org.gnome.Shell.desktop[1699]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:40:45 linuxvm org.gnome.Shell.desktop[1699]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:08 linuxvm gnome-shell[1981]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2207: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2207: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2272: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2272: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:41:17 linuxvm gnome-shell[2757]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:41:17 linuxvm gnome-shell[2757]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:41:17 linuxvm gnome-shell[2757]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:41:17 linuxvm ptyxis[2701]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:41:17 linuxvm gnome-shell[2792]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:41:17 linuxvm gnome-shell[2792]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:21 linuxvm gnome-session[3326]: gnome-session-binary[3326]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:21 linuxvm gnome-session-binary[3326]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3338]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3338]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:22 linuxvm org.gnome.Shell.desktop[3338]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3552]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3552]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3707]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3707]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3707]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3796]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3796]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3796]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:45:31 linuxvm gnome-shell[3973]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:31 linuxvm gnome-shell[3973]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:31 linuxvm gnome-shell[3973]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:43 linuxvm gnome-session[3947]: gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4101: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4101: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session[3947]: gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4123: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4123: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:45:47 linuxvm gnome-shell[4686]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:45:47 linuxvm gnome-shell[4686]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:45:47 linuxvm gnome-shell[4686]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:45:47 linuxvm ptyxis[4648]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:45:47 linuxvm gnome-shell[4718]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:45:47 linuxvm gnome-shell[4718]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:47:20 linuxvm ptyxis[4823]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:48:37 linuxvm ptyxis[4962]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:48:37 linuxvm ptyxis[4962]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:48:37 linuxvm ptyxis[4962]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:48:38 linuxvm ptyxis[4962]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:27 linuxvm ptyxis[5080]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 14:51:17 linuxvm gnome-shell[5310]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:51:17 linuxvm gnome-shell[5310]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:51:17 linuxvm gnome-shell[5310]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:51:21 linuxvm gnome-shell[5311]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:51:21 linuxvm gnome-shell[5311]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:51:21 linuxvm gnome-shell[5311]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:51:32 linuxvm gnome-shell[5312]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 14:51:32 linuxvm gnome-shell[5312]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 14:51:32 linuxvm gnome-shell[5312]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: failed to get driver name for fd -1
+Sep 21 14:51:37 linuxvm ptyxis[5320]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:04 linuxvm gnome-session[6840]: gnome-session-binary[6840]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:04 linuxvm gnome-session-binary[6840]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6852]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6852]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:05 linuxvm org.gnome.Shell.desktop[6852]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7210]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7210]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7210]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7177]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7177]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 17:29:13 linuxvm gnome-shell[7435]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 17:29:13 linuxvm gnome-shell[7435]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 17:29:13 linuxvm gnome-shell[7435]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 20:41:15 linuxvm gnome-session[7836]: gnome-session-binary[7836]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:15 linuxvm gnome-session-binary[7836]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7848]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7848]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:41:16 linuxvm org.gnome.Shell.desktop[7848]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8057]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8057]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8144]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8144]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8144]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 20:42:55 linuxvm gnome-shell[8460]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 20:42:55 linuxvm gnome-shell[8460]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 20:42:55 linuxvm gnome-shell[8460]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 20:46:31 linuxvm gnome-session[8718]: gnome-session-binary[8718]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:31 linuxvm gnome-session-binary[8718]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8737]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8737]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:31 linuxvm org.gnome.Shell.desktop[8737]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9090]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9090]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9090]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9075]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9075]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:45 linuxvm gnome-shell[9454]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:46:47 linuxvm gnome-session[9426]: gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9588: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9588: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session[9426]: gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9633: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9633: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:01 linuxvm gnome-shell[10215]: > Warning:          Unsupported maximum keycode 708, clipping.
+Sep 21 20:47:01 linuxvm gnome-shell[10215]: > Warning:          Could not resolve keysym XF86KbdInputAssistPrevgrou
+Sep 21 20:47:01 linuxvm gnome-shell[10215]: > Warning:          Could not resolve keysym XF86KbdInputAssistNextgrou
+Sep 21 20:47:01 linuxvm ptyxis[10157]: libEGL warning: egl: failed to create dri2 screen
+Sep 21 20:47:01 linuxvm gnome-shell[10250]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 20:47:01 linuxvm gnome-shell[10250]: libEGL warning: Ensure your X server supports DRI3 to get accelerated rendering
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: MESA-LOADER: failed to retrieve device information
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: failed to get driver name for fd -1
+Sep 21 20:47:44 linuxvm ptyxis[10332]: libEGL warning: egl: failed to create dri2 screen

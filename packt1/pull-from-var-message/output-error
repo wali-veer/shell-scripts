@@ -1,0 +1,229 @@
+Sep 20 23:24:37 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Sep 20 23:24:37 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Sep 20 23:24:37 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Sep 20 23:38:53 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Sep 20 23:38:53 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Sep 20 23:38:53 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Sep 20 23:41:00 linuxvm gnome-session[1809]: gnome-session-binary[1809]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:00 linuxvm gnome-session-binary[1809]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:02 linuxvm gsd-sharing[1989]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:02 linuxvm gsd-sharing[1989]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 20 23:41:02 linuxvm gnome-shell[1897]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 20 23:41:02 linuxvm org.gnome.Shell.desktop[2193]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 20 23:41:03 linuxvm org.gnome.Shell.desktop[2220]: Errors from xkbcomp are not fatal to the X server
+Sep 20 23:41:17 linuxvm gnome-session[2562]: gnome-session-binary[2562]: GnomeDesktop-WARNING: Could not create transient scope for PID 2767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 20 23:41:17 linuxvm gnome-session-binary[2562]: GnomeDesktop-WARNING: Could not create transient scope for PID 2767: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 20 23:41:18 linuxvm gnome-shell[2590]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 20 23:41:18 linuxvm gsd-usb-protect[2736]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 20 23:41:43 linuxvm gnome-shell[3410]: Errors from xkbcomp are not fatal to the X server
+Sep 20 23:41:43 linuxvm gsd-xsettings[3411]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 20 23:41:43 linuxvm nautilus[3364]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:41:43 linuxvm gnome-shell[3445]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 20 23:41:52 linuxvm org.gnome.Software.desktop[2769]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:42:29 linuxvm ptyxis[3579]: MESA: error: ZINK: failed to choose pdev
+Sep 20 23:44:57 linuxvm org.gnome.Settings.desktop[3770]: MESA: error: ZINK: failed to choose pdev
+Sep 21 00:28:01 linuxvm ModemManager[1081]: <wrn> [sleep-monitor-systemd] inhibit failed: GDBus.Error:org.freedesktop.DBus.Error.NoReply: Remote peer disconnected
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event4: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event5: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event0: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event1: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event2: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event3: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 00:28:03 linuxvm gnome-shell[2590]: Could not open device /dev/input/event6: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:44:54 linuxvm cupsd[1084]: REQUEST localhost - - "POST / HTTP/1.1" 200 184 Renew-Subscription client-error-not-found
+Sep 21 03:44:56 linuxvm gnome-session[4131]: gnome-session-binary[4131]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:44:56 linuxvm gnome-session-binary[4131]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:00 linuxvm gnome-session[4219]: gnome-session-binary[4219]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:00 linuxvm gnome-session-binary[4219]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:06 linuxvm gnome-shell[4232]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 03:45:08 linuxvm gsd-sharing[4326]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:08 linuxvm gsd-sharing[4326]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4634]: Errors from xkbcomp are not fatal to the X server
+Sep 21 03:45:10 linuxvm org.gnome.Shell.desktop[4576]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event4: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event5: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event0: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event1: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event2: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event3: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:04 linuxvm gnome-shell[2590]: Could not open device /dev/input/event6: GDBus.Error:org.freedesktop.login1.NotInControl: You are not in control of this session
+Sep 21 03:56:14 linuxvm gnome-shell[4232]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+Sep 21 00:09:22 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Sep 21 00:09:22 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Sep 21 00:09:22 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Sep 21 09:14:07 linuxvm gnome-session[1407]: gnome-session-binary[1407]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:07 linuxvm gnome-session-binary[1407]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:08 linuxvm gnome-shell[1420]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 09:14:09 linuxvm gsd-sharing[1514]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:09 linuxvm gsd-sharing[1514]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:14:09 linuxvm gnome-shell[1420]: Gio.DBusError: Connection is closed.#012#012Stack trace:#012  _promisify/proto[asyncFunc]/</<@resource:///org/gnome/gjs/modules/core/overrides/Gio.js:453:45#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  ### Promise created here: ####012  _onConnected@resource:///org/gnome/shell/misc/inputMethod.js:76:46#012  @resource:///org/gnome/shell/ui/init.js:21:20#012  
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1702]: Errors from xkbcomp are not fatal to the X server
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1672]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1786]: Errors from xkbcomp are not fatal to the X server
+Sep 21 09:14:09 linuxvm org.gnome.Shell.desktop[1793]: Errors from xkbcomp are not fatal to the X server
+Sep 21 09:14:21 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2108: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:21 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2108: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2246: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session[2082]: gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2260: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:22 linuxvm gnome-session-binary[2082]: GnomeDesktop-WARNING: Could not create transient scope for PID 2260: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:14:23 linuxvm gsd-usb-protect[2241]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 09:14:23 linuxvm gnome-shell[2109]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 09:15:07 linuxvm gnome-shell[2883]: Errors from xkbcomp are not fatal to the X server
+Sep 21 09:15:07 linuxvm gsd-xsettings[2884]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 09:15:07 linuxvm nautilus[2831]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:15:07 linuxvm gnome-shell[2914]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 09:15:26 linuxvm org.gnome.Software.desktop[2247]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:15:54 linuxvm firefox.desktop[3087]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59cf284e00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59ce5f8100 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59cf285400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:15:55 linuxvm firefox.desktop[3339]: [Child 3339, MediaDecoderStateMachine #1] WARNING: Decoder=7f59cf284500 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - Error no decoder found for audio/mp4a-latm: file /builddir/build/BUILD/firefox-140.14.0/dom/media/MediaDecoderStateMachineBase.cpp:168
+Sep 21 09:16:29 linuxvm ptyxis[3600]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:16:37 linuxvm ptyxis[3704]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:21:45 linuxvm ptyxis[3807]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:43:58 linuxvm org.gnome.Settings.desktop[4008]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:45:28 linuxvm org.gnome.Settings.desktop[4134]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:47:06 linuxvm ptyxis[4436]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:47:06 linuxvm gnome-shell[2109]: Gio.DBusError: GDBus.Error:org.freedesktop.DBus.Error.Failed: Set global engine failed: Operation was cancelled#012#012(No stack trace)
+Sep 21 09:47:33 linuxvm org.gnome.Settings.desktop[4519]: MESA: error: ZINK: failed to choose pdev
+Sep 21 09:50:08 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Sep 21 09:50:08 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Sep 21 09:50:08 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Sep 21 09:50:08 linuxvm systemd-vconsole-setup[924]: setfont: ERROR kdfontop.c:183 put_font_kdfontop: Unable to load such font with such kernel version
+Sep 21 09:54:31 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Sep 21 09:54:31 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Sep 21 09:54:31 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Sep 21 09:54:33 linuxvm gnome-session[1261]: gnome-session-binary[1261]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:33 linuxvm gnome-session-binary[1261]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:35 linuxvm gnome-shell[1273]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 09:54:35 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:35 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 09:54:35 linuxvm org.gnome.Shell.desktop[1598]: Errors from xkbcomp are not fatal to the X server
+Sep 21 09:54:36 linuxvm org.gnome.Shell.desktop[1581]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 09:54:51 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2003: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:51 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2003: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2122: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2122: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2131: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2131: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session[1977]: gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2145: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:53 linuxvm gnome-session-binary[1977]: GnomeDesktop-WARNING: Could not create transient scope for PID 2145: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 09:54:54 linuxvm gsd-usb-protect[2177]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 09:54:54 linuxvm gnome-shell[2006]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 09:54:54 linuxvm gnome-shell[2006]: libinput error: event4  - VirtualBox USB Tablet: client bug: event processing lagging behind by 22ms, your system is too slow
+Sep 21 09:54:55 linuxvm gnome-shell[1273]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+Sep 21 12:43:47 linuxvm cupsd[1108]: REQUEST localhost - - "POST / HTTP/1.1" 200 184 Renew-Subscription client-error-not-found
+Sep 21 13:03:32 linuxvm gnome-shell[3118]: Errors from xkbcomp are not fatal to the X server
+Sep 21 13:03:32 linuxvm gsd-xsettings[3119]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 13:03:32 linuxvm gnome-background-panel.desktop[3038]: MESA: error: ZINK: failed to choose pdev
+Sep 21 13:03:32 linuxvm gnome-shell[3155]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 13:03:35 linuxvm nautilus[3200]: MESA: error: ZINK: failed to choose pdev
+Sep 21 13:42:04 linuxvm cupsd[1108]: REQUEST localhost - - "POST / HTTP/1.1" 200 184 Renew-Subscription client-error-not-found
+Sep 21 14:40:40 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* vmwgfx seems to be running on an unsupported hypervisor.
+Sep 21 14:40:40 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* This configuration is likely broken.
+Sep 21 14:40:40 linuxvm kernel: vmwgfx 0000:00:02.0: [drm] *ERROR* Please switch to a supported graphics device to avoid problems.
+Sep 21 14:40:42 linuxvm gnome-session[1245]: gnome-session-binary[1245]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:42 linuxvm gnome-session-binary[1245]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:44 linuxvm gnome-shell[1260]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 14:40:44 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:44 linuxvm gsd-sharing[1381]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1443]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:40:44 linuxvm org.gnome.Shell.desktop[1571]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:40:45 linuxvm org.gnome.Shell.desktop[1699]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:41:09 linuxvm gnome-shell[1981]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2207: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2207: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2228: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session[1953]: gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2272: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gnome-session-binary[1953]: GnomeDesktop-WARNING: Could not create transient scope for PID 2272: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:41:10 linuxvm gsd-usb-protect[2127]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 14:41:11 linuxvm gnome-shell[1260]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+Sep 21 14:41:17 linuxvm gnome-shell[2757]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:41:17 linuxvm gsd-xsettings[2758]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 14:41:17 linuxvm ptyxis[2701]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:41:17 linuxvm gnome-shell[2792]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:44:52 linuxvm org.gnome.Settings.desktop[2912]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:45:20 linuxvm evolution-alarm[2299]: Error reading events from display: Broken pipe
+Sep 21 14:45:21 linuxvm gnome-session[3326]: gnome-session-binary[3326]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:21 linuxvm gnome-session-binary[3326]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:22 linuxvm gnome-shell[3338]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 14:45:23 linuxvm gsd-sharing[3415]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:23 linuxvm gsd-sharing[3415]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3552]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3707]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:45:23 linuxvm org.gnome.Shell.desktop[3796]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:45:43 linuxvm gnome-session[3947]: gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4101: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4101: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session[3947]: gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4123: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gnome-session-binary[3947]: GnomeDesktop-WARNING: Could not create transient scope for PID 4123: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 14:45:43 linuxvm gsd-usb-protect[4134]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 14:45:43 linuxvm gnome-shell[3973]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 14:45:47 linuxvm gnome-shell[4686]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:45:47 linuxvm gsd-xsettings[4687]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 14:45:47 linuxvm ptyxis[4648]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:45:47 linuxvm gnome-shell[4718]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 14:47:20 linuxvm ptyxis[4823]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:48:38 linuxvm ptyxis[4962]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:49:27 linuxvm ptyxis[5080]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:49:55 linuxvm org.gnome.Settings.desktop[5174]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:50:51 linuxvm org.gnome.Settings.desktop[5279]: MESA: error: ZINK: failed to choose pdev
+Sep 21 14:51:17 linuxvm gnome-shell[5310]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:51:21 linuxvm gnome-shell[5311]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:51:32 linuxvm gnome-shell[5312]: Errors from xkbcomp are not fatal to the X server
+Sep 21 14:51:37 linuxvm ptyxis[5320]: MESA: error: ZINK: failed to choose pdev
+Sep 21 16:20:45 linuxvm cupsd[1092]: REQUEST localhost - - "POST / HTTP/1.1" 200 184 Renew-Subscription client-error-not-found
+Sep 21 17:19:05 linuxvm cupsd[1092]: REQUEST localhost - - "POST / HTTP/1.1" 200 184 Renew-Subscription client-error-not-found
+Sep 21 17:29:03 linuxvm gnome-shell[3973]: Could not open device /dev/input/event4: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 17:29:03 linuxvm gnome-shell[3973]: Could not open device /dev/input/event5: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 17:29:03 linuxvm gnome-shell[3973]: Could not open device /dev/input/event0: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 17:29:03 linuxvm gnome-shell[3973]: Could not open device /dev/input/event1: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 17:29:03 linuxvm gnome-shell[3973]: Could not open device /dev/input/event2: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 17:29:03 linuxvm gnome-shell[3973]: Could not open device /dev/input/event3: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 17:29:04 linuxvm gnome-session[6840]: gnome-session-binary[6840]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:04 linuxvm gnome-session-binary[6840]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:05 linuxvm gnome-shell[6852]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 17:29:06 linuxvm gsd-sharing[6936]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:06 linuxvm gsd-sharing[6936]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7210]: Errors from xkbcomp are not fatal to the X server
+Sep 21 17:29:06 linuxvm org.gnome.Shell.desktop[7177]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 17:29:13 linuxvm gnome-shell[7435]: Errors from xkbcomp are not fatal to the X server
+Sep 21 17:29:23 linuxvm gnome-shell[6852]: JS ERROR: Gio.IOErrorEnum: Xwayland exited unexpectedly#012@resource:///org/gnome/shell/ui/init.js:21:20
+Sep 21 20:41:13 linuxvm cupsd[1092]: REQUEST localhost - - "POST / HTTP/1.1" 200 184 Renew-Subscription client-error-not-found
+Sep 21 20:41:13 linuxvm gnome-shell[3973]: Could not open device /dev/input/event4: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 20:41:13 linuxvm gnome-shell[3973]: Could not open device /dev/input/event5: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 20:41:14 linuxvm gnome-shell[3973]: Could not open device /dev/input/event0: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 20:41:14 linuxvm gnome-shell[3973]: Could not open device /dev/input/event1: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 20:41:14 linuxvm gnome-shell[3973]: Could not open device /dev/input/event2: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 20:41:14 linuxvm gnome-shell[3973]: Could not open device /dev/input/event3: GDBus.Error:org.freedesktop.login1.DeviceIsTaken: Device already taken
+Sep 21 20:41:15 linuxvm gnome-session[7836]: gnome-session-binary[7836]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:15 linuxvm gnome-session-binary[7836]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:17 linuxvm gnome-shell[7848]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 20:41:18 linuxvm gsd-sharing[7938]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:18 linuxvm gsd-sharing[7938]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8057]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 20:41:18 linuxvm org.gnome.Shell.desktop[8144]: Errors from xkbcomp are not fatal to the X server
+Sep 21 20:42:55 linuxvm gnome-shell[8460]: Errors from xkbcomp are not fatal to the X server
+Sep 21 20:46:30 linuxvm cupsd[1092]: REQUEST localhost - - "POST / HTTP/1.1" 200 153 Cancel-Subscription client-error-not-found
+Sep 21 20:46:31 linuxvm evolution-alarm[4135]: Error reading events from display: Broken pipe
+Sep 21 20:46:31 linuxvm gnome-session[8718]: gnome-session-binary[8718]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:31 linuxvm gnome-session-binary[8718]: WARNING: Could not check if unit gnome-session-wayland@gnome-login.target is active: Error calling StartServiceByName for org.freedesktop.systemd1: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:32 linuxvm gnome-shell[8737]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 20:46:32 linuxvm gsd-sharing[8853]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:32 linuxvm gsd-sharing[8853]: Failed to StopUnit service: GDBus.Error:org.freedesktop.DBus.Error.Spawn.ChildExited: Process org.freedesktop.systemd1 exited with status 1
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9090]: Errors from xkbcomp are not fatal to the X server
+Sep 21 20:46:33 linuxvm org.gnome.Shell.desktop[9075]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 20:46:47 linuxvm gnome-session[9426]: gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9588: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9588: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session[9426]: gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9633: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:47 linuxvm gnome-session-binary[9426]: GnomeDesktop-WARNING: Could not create transient scope for PID 9633: GDBus.Error:org.freedesktop.DBus.Error.UnixProcessIdUnknown: Failed to set unit properties: No such process
+Sep 21 20:46:48 linuxvm gnome-shell[9454]: Error looking up permission: GDBus.Error:org.freedesktop.portal.Error.NotFound: No entry for geolocation
+Sep 21 20:46:48 linuxvm gsd-usb-protect[9581]: Failed to fetch USBGuard parameters: GDBus.Error:org.freedesktop.DBus.Error.ServiceUnknown: The name is not activatable
+Sep 21 20:47:01 linuxvm gnome-shell[10215]: Errors from xkbcomp are not fatal to the X server
+Sep 21 20:47:01 linuxvm gsd-xsettings[10216]: Failed to get current UI scaling factor: GDBus.Error:org.freedesktop.DBus.Error.NameHasNoOwner: Destination does not exist
+Sep 21 20:47:01 linuxvm ptyxis[10157]: MESA: error: ZINK: failed to choose pdev
+Sep 21 20:47:01 linuxvm gnome-shell[10250]: libEGL warning: DRI3 error: Could not get DRI3 device
+Sep 21 20:47:44 linuxvm ptyxis[10332]: MESA: error: ZINK: failed to choose pdev
