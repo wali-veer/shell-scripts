@@ -19,9 +19,6 @@ jobs:
             
             - name: install dependencies
               run: npm ci
-
-            - name: Install ESLint
-              run: npm install --save-dev eslint
               
             - name: Lint code
               run: npm run lint
