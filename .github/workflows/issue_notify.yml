@@ -5,11 +5,9 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: output issue details
-              env:
-               EVENT_CONTEXT: ${{ toJson(github.event) }}
               run: |
                 echo "Issue Title: ${{ github.event.issue.title }}"
                 echo "Issue Body: ${{ github.event.issue.body }}"
                 echo "Issue URL: ${{ github.event.issue.html_url }}"
                 echo "-------All details -------" 
-                echo "$EVENT_CONTEXT" | jq .
+                echo " All details : ${{ toJson(github.event) }}
