@@ -10,4 +10,4 @@ jobs:
                 echo "Issue Body: ${{ github.event.issue.body }}"
                 echo "Issue URL: ${{ github.event.issue.html_url }}"
                 echo "-------All details -------" 
-                echo " All details : ${{ toJson(github.event) }}"
+                echo " All details : ${{ toJSON(github.event) }}"
