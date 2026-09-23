@@ -5,9 +5,4 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: output issue details
-              run: |
-                echo "Issue Title: ${{ github.event.issue.title }}"
-                echo "Issue Body: ${{ github.event.issue.body }}"
-                echo "Issue URL: ${{ github.event.issue.html_url }}"
-                echo "-------All details -------" 
-                echo " All details : ${{ toJSON(github.event) }}"
+              run: echo " ${{ toJSON(github.event) }}"
