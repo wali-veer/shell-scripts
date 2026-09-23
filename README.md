@@ -1,5 +1,5 @@
-# proj1
-## Contains few shell script
+# Folder : proj1
+### Contains a few shell scripts
 
-# action-reaction-project
-## A project used for GitHub actions to setup CICD pipeline 
+# Folder : action-reaction-project
+### Sample project for GitHub actions experimentation and set-up a CICD pipeline 
