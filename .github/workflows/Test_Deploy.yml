@@ -1,0 +1,50 @@
+name: Testing this project
+on: push
+jobs:
+    test:
+        runs-on: ubuntu-latest
+
+        steps:
+            - name: Download the code
+              uses: actions/checkout@v3
+              
+            - name: Install nodeJS
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+
+            - name: Install dependencies
+              run: npm ci
+              working-directory: action-reaction-project
+
+            - name: Run tests
+              working-directory: action-reaction-project
+              run: |
+                npm install 
+                npm test
+    
+    deploy:
+        runs-on: ubuntu-latest
+        needs: test
+
+        steps:
+            - name: Download the code
+              uses: actions/checkout@v3
+              
+            - name: Install nodeJS
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+
+            - name: Install dependencies
+              run: npm ci
+              working-directory: action-reaction-project
+
+            - name: Build Project
+              working-directory: action-reaction-project
+              run: |
+                npm install 
+                npm run build
+            
+            - name: Deploy Success
+              run: echo "Deployment Successful"
