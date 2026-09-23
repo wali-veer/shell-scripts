@@ -7,6 +7,6 @@ jobs:
       - name: Print greeting
         run: |
           echo "Hello, how are you doing?"
-          echo "Are you ready to explore more?
+          echo "Are you ready to explore more?"
       - name: Print bye
         run: echo "Bye, have a good day!"
