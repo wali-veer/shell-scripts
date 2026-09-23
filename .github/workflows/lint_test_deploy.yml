@@ -1,0 +1,29 @@
+name: Lint, Test and Deploy
+on: [push, workflow_dispatch]
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps: 
+            - name: Checkout code
+              uses: actions/checkout@v3
+            
+            - name: install dependencies
+              run: npm ci
+              working-directory: action-reaction-project
+
+            - name: Lint code
+              run: npm run lint
+              working-directory: action-reaction-project
+
+            - name: Run tests
+              run: |
+                npm install 
+                npm test
+
+            - name: Build Project
+              run: |
+                npm install 
+                npm run build
+            
+            - name: Deploy Success
+              run: echo "Deployment Successful"
