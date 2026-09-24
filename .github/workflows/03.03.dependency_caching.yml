@@ -1,54 +1,60 @@
 name: Dependency Caching
-on: 
-    push:
-        branches:
-        - main
-    workflow_dispatch:
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
 jobs:
-    test:
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout the code
-              uses: actions/checkout@v4
+  test:
+    runs-on: ubuntu-latest
 
-            - name: Cache NodeJS dependencies
-              uses: actions/cache@v4
-              with:
-                path: ~/.npm
-                key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v4
 
-            - name: install dependencies
-              run: npm ci
-              working-directory: action-reaction-project
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: action-reaction-project/package-lock.json
 
-            - name: Lint code
-              run: npm run lint
-              working-directory: action-reaction-project
+      - name: Install dependencies
+        run: npm ci
+        working-directory: action-reaction-project
 
-            - name: run test cases
-              run: npm test
-              working-directory: action-reaction-project
-    
-    build:
-        runs-on: ubuntu-latest
-        needs: test
-        steps:
-            - name: Checkout the code
-              uses: actions/checkout@v4
+      - name: Lint code
+        run: npm run lint
+        working-directory: action-reaction-project
 
-            - name: Cache NodeJS dependencies
-              uses: actions/cache@v4
-              with: 
-                path: ~/.npm
-                key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
-            
-            - name: Install dependencies
-              run: npm ci
-              working-directory: action-reaction-project
-            
-            - name: Build the project
-              run: npm run build
-              working-directory: action-reaction-project
+      - name: Run test cases
+        run: npm test
+        working-directory: action-reaction-project
 
-            - name: Deploy the package
-              run: echo "Deployed the package..."
+  build:
+    runs-on: ubuntu-latest
+    needs: test
+
+    steps:
+      - name: Checkout the code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: action-reaction-project/package-lock.json
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: action-reaction-project
+
+      - name: Build the project
+        run: npm run build
+        working-directory: action-reaction-project
+
+      - name: Deploy the package
+        run: echo "Deployed the package..."
