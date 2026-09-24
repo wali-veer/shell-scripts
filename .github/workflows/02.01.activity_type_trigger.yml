@@ -10,7 +10,7 @@ jobs:
     
         steps:
             - name: output event name
-              run: echo "${{ toJSON(github.event_name) }}"
+              run: echo "${{ toJSON(github.event) }}"
 
             - name: Checkout code
               uses: actions/checkout@v3
