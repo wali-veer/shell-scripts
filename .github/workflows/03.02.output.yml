@@ -54,6 +54,7 @@ jobs:
 
             - name: publish script name
               id: publish_script
+              shell: bash
               run: find dist/assets/*.js -type f -execdir echo 'script_file_name={}' >> $GITHUB_OUTPUT ';'
 
             - name: Upload artifact
