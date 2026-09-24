@@ -22,9 +22,11 @@ jobs:
             
             - name: install dependencies
               run: npm ci
+              working-directory: action-reaction-project
 
             - name: Run tests
               run: npm test
+              working-directory: action-reaction-project
 
             - name: Build Project
               run: npm run build
