@@ -77,7 +77,7 @@ jobs:
               run: ls -R
 
             - name: Display script name
-              run: echo "Script Name: ${{ needs.build.outputs.script-name }}"
+              run: 'echo "Script Name: ${{ needs.build.outputs.script-name }}"'
 
             - name: Deploy Success
               run: echo "Deployment Successful"  #dummy line
