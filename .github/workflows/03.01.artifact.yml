@@ -1,0 +1,64 @@
+name: Deploy a website
+on:
+    push:
+        branches:
+        - main
+    workflow_dispatch:
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+
+            - name: Install nodeJS
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            
+            - name: install dependencies
+              run: npm ci
+              working-directory: action-reaction-project
+
+            - name: lint code
+              run: npm run lint
+              working-directory: action-reaction-project
+
+            - name: Run tests
+              run: npm test
+              working-directory: action-reaction-project
+
+    build:
+        needs: test
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout code
+              uses: actions/checkout@v3
+        
+            - name: Install nodeJS
+              uses: actions/setup-node@v3
+              with:
+                  node-version: 18
+            
+            - name: install dependencies
+              run: npm ci
+              working-directory: action-reaction-project
+            
+            - name: Build Project
+              run: npm run build
+              working-directory: action-reaction-project
+
+            - name: Upload artifact
+              uses: actions/upload-artifact@v3
+              with:
+                  name: build-artifact
+                  path: |
+                    action-reaction-project/dist
+                    action-reaction-project/package.json
+
+    deploy:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+            - name: Deploy Success
+              run: echo "Deployment Successful"
