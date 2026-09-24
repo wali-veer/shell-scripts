@@ -1,4 +1,4 @@
-name: Artifacts of website 
+name: Show the output
 on:
     push:
         branches:
@@ -31,6 +31,10 @@ jobs:
     build:
         needs: test
         runs-on: ubuntu-latest
+
+        outputs:
+            script-name: ${{ steps.publish_script.outputs.script_file_name }}
+
         steps:
             - name: Checkout code
               uses: actions/checkout@v3
@@ -47,6 +51,10 @@ jobs:
             - name: Build Project
               run: npm run build
               working-directory: action-reaction-project
+
+            - name: publish script name
+              id: publish_script
+              run: find dist/assets/*.js -type f -execdir echo 'script_file_name={}' >> $GITHUB_OUTPUT ';'
 
             - name: Upload artifact
               uses: actions/upload-artifact@v4
@@ -67,6 +75,9 @@ jobs:
 
             - name: List the downloaded files
               run: ls -R
+
+            - name: Display script name
+              run: echo "Script Name: ${{ needs.build.outputs.script-name }}"
 
             - name: Deploy Success
               run: echo "Deployment Successful"  #dummy line
