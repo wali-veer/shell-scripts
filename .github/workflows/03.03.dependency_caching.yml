@@ -1,0 +1,53 @@
+name: Dependency Caching
+on: 
+    push:
+        branches:
+        - main
+    workflow_dispatch:
+jobs:
+    test:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout the code
+              uses: actions/checkout@v4
+
+            - name: Cache NodeJS dependencies
+              uses: actions/cache@v3
+              with:
+                path: actions-reaction-project/.npm
+                key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
+
+            - name: Install dependencies
+              run: npm ci
+              working-directory: actions-reaction-project
+
+            - name: Lint code
+              run: npm run lint
+              working-directory: actions-reaction-project
+
+            - name: run test cases
+              run: npm test
+              working-directory: actions-reaction-project
+    
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout the code
+              uses: actions/checkout@v4
+
+            - name: Cache NodeJS dependencies
+              uses: actions/cache@v3
+              with: 
+                path: actions-reaction-project/.npm
+                key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
+            
+            - name: Install dependencies
+              run: npm ci
+              working-directory: actions-reaction-project
+            
+            - name: Build the project
+              run: npm run build
+              working-directory: actions-reaction-project
+
+            - name: Deploy the package
+              run: echo "Deployed the package..."
