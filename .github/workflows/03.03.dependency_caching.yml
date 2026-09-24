@@ -17,17 +17,17 @@ jobs:
                 path: actions-reaction-project/.npm
                 key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
 
-            - name: Install dependencies
+            - name: install dependencies
               run: npm ci
-              working-directory: actions-reaction-project
+              working-directory: action-reaction-project
 
             - name: Lint code
               run: npm run lint
-              working-directory: actions-reaction-project
+              working-directory: action-reaction-project
 
             - name: run test cases
               run: npm test
-              working-directory: actions-reaction-project
+              working-directory: action-reaction-project
     
     build:
         runs-on: ubuntu-latest
