@@ -1,4 +1,4 @@
-name: Condtional Execution
+name: Call reusable workflow
 on: 
     #workflow_dispatch:
     push:
@@ -90,6 +90,8 @@ jobs:
     deploy:
         needs: build
         uses: ./.github/workflows/06.02.01.reusable.yml
+        with:
+            artifact-name: build-artifacts
 
     report_failure:
         needs: [lint, test, build, deploy]
