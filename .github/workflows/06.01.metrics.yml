@@ -2,10 +2,17 @@ name: matrix
 on: push
 jobs:
     build:
+        continue-on-error: true  # to avoid failing the entire workflow if one of the matrix jobs fails
         strategy:
             matrix:
                 node-version: [16, 18, 20]
                 operating-system: [ubuntu-latest, windows-latest, macos-latest]
+                include:
+                    - node-version: 16
+                      operating-system: macos-latest
+                exclude:
+                    - node-version: 18
+                      operating-system: macos-latest
         runs-on: ${{ matrix.operating-system }}
         steps:
             - name: Get Code
