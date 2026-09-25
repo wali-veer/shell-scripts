@@ -44,10 +44,12 @@ jobs:
               working-directory: action-reaction-project
 
             - name: Run tests
+              id: run-tests
               run: npm run test
               working-directory: action-reaction-project
 
             - name: Upload test report 
+              if: steps.run-tests.outcome == 'failure'
               uses: actions/upload-artifact@v4
               with:
                 name: test-report
