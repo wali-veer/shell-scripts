@@ -1,5 +1,9 @@
 name: matrix
-on: push
+on: 
+#  push:
+ #   branches:
+  #      - main
+  workflow_dispatch:
 jobs:
     build:
         continue-on-error: true  # to avoid failing the entire workflow if one of the matrix jobs fails
