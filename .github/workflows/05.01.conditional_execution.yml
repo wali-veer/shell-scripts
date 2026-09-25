@@ -97,4 +97,13 @@ jobs:
 
             - name: Deploy to server
               run: echo "Deploying to server..."
-            
+
+    report_failure:
+        needs: [lint, test, build, deploy]
+        runs-on: ubuntu-latest
+        if: ${{ failure() }}
+        steps:
+            - name: Report failure
+              run: |
+                echo "One of the jobs failed. Please check the logs."
+                echo "${{ github }}"
