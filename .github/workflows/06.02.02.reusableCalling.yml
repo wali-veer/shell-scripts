@@ -92,6 +92,15 @@ jobs:
         uses: ./.github/workflows/06.02.01.reusable.yml
         with:
             artifact-name: build-artifacts
+        #   secrets:
+        #      DEPLOYMENT_KEY: ${{ secrets.DEPLOYMENT_KEY }}
+
+    print-deploy-result:
+        needs: deploy
+        runs-on: ubuntu-latest
+        steps:
+            - name: Print deployment result
+              run: echo "${{ needs.deploy.outputs.result }}"
 
     report_failure:
         needs: [lint, test, build, deploy]
