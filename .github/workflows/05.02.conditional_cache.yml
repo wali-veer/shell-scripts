@@ -1,0 +1,111 @@
+name: Condtional Execution
+on: 
+    workflow_dispatch:
+    push:
+        branches:
+            - main
+jobs:
+    lint:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get Code
+              uses: actions/checkout@v4
+        
+            - name: Cache dependencies
+              id: cache
+              uses: actions/cache@v3
+              with: 
+                path: action-reaction-project/node_modules
+                key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
+
+            - name: Install dependencies
+              if: steps.cache.outputs.cache-hit != 'true'
+              run: npm ci
+              working-directory: action-reaction-project
+
+            - name: lint code
+              run: npm run lint
+              working-directory: action-reaction-project
+    test:
+        runs-on: ubuntu-latest
+        needs: lint
+        steps:
+            - name: Get Code
+              uses: actions/checkout@v4
+        
+            - name: Cache dependencies
+              id: cache
+              uses: actions/cache@v3
+              with: 
+                path: action-reaction-project/node_modules
+                key: deps-node-modules-${{ hashFiles('**/package-lock.json') }}
+
+            - name: Install dependencies
+              if: steps.cache.outputs.cache-hit != 'true'
+              run: npm ci
+              working-directory: action-reaction-project
+
+            - name: Run tests
+              id: run-tests
+              run: npm run test
+              working-directory: action-reaction-project
+
+            - name: Upload test report 
+              if: failure() && steps.run-tests.outcome == 'failure'
+              uses: actions/upload-artifact@v4
+              with:
+                name: test-report
+                path: action-reaction-project/test.json
+
+    build:
+        needs: test
+        runs-on: ubuntu-latest
+        steps:
+            - name: Get Code
+              uses: actions/checkout@v4
+        
+            - name: Cache Node.js dependencies
+              uses: actions/setup-node@v4
+              with:
+                node-version: 20
+                cache: npm
+                cache-dependency-path: action-reaction-project/package-lock.json
+            
+            - name: Install dependencies
+              run: npm ci   
+              working-directory: action-reaction-project
+
+            - name: Build project
+              run: npm run build
+              working-directory: action-reaction-project
+
+            - name: Upload build artifacts
+              uses: actions/upload-artifact@v4
+              with:
+                name: build-artifacts
+                path: action-reaction-project/dist
+
+    deploy:
+        needs: build
+        runs-on: ubuntu-latest
+        steps:
+            - name: get build artifacts
+              uses: actions/download-artifact@v4
+              with:
+                name: build-artifacts
+            
+            - name: output contents
+              run: ls -R
+
+            - name: Deploy to server
+              run: echo "Deploying to server..."
+
+    report_failure:
+        needs: [lint, test, build, deploy]
+        runs-on: ubuntu-latest
+        if: ${{ failure() }}
+        steps:
+            - name: Report failure
+              run: |
+                echo "One of the jobs failed. Please check the logs."
+                echo "${{ toJSON(github) }}"
