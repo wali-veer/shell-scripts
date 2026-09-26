@@ -18,7 +18,7 @@ runs:
         key: ${{ hashFiles('**/package-lock.json') }}
 
     - name: Install dependencies
-      if: steps.cache.outputs.cache-hit != 'true' || inputs.caching != 'true'
+      if: steps.cache.outputs.cache-hit != 'true' || inputs.caching != 'false'
       run: npm ci
       working-directory: action-reaction-project
       shell: bash
