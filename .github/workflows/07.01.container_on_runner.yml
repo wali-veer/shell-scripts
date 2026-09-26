@@ -1,4 +1,4 @@
-name: Deployment (Container)
+name: Service (Container)
 on:
   push:
     branches:
@@ -37,21 +37,17 @@ jobs:
           key: ${{ env.CACHE_KEY }}-${{ hashFiles('**/package-lock.json') }}
 
       - name: Install dependencies
+        working-directory: action-reaction-project
         run: npm ci 
-        working-directory: action-reaction-project
 
-      - name: Run server
-        run: |
-          npm install -g pm2  
-          npm start & npx wait-on http://127.0.0.1:$PORT # requires MongoDB Atlas to accept requests from anywhere!
+      - name: Start Server and Run Tests
+        working-directory: action-reaction-project
+        run: npx start-server-and-test start http://127.0.0.1:$PORT test
       
-      - name: Run tests
-        run: npm test
-        working-directory: action-reaction-project
-
       - name: Output information
         run: |
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
+          
   deploy:
     needs: test
     runs-on: ubuntu-latest
