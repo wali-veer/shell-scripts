@@ -41,10 +41,15 @@ jobs:
         working-directory: action-reaction-project
 
       - name: Run server
-        run: npm start & npx wait-on http://127.0.0.1:$PORT # requires MongoDB Atlas to accept requests from anywhere!
-      
+        run: |
+          npm install -g pm2
+          pm2 start npm --name "my-app" -- start
+          npx wait-on http://127.0.0.1:$PORT
+                
       - name: Run tests
         run: npm test
+        working-directory: action-reaction-project
+
       - name: Output information
         run: |
           echo "MONGODB_USERNAME: $MONGODB_USERNAME"
