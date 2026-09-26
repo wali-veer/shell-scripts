@@ -42,10 +42,9 @@ jobs:
 
       - name: Run server
         run: |
-          npm install -g pm2
-          pm2 start npm --name "my-app" -- start
-          npx wait-on http://127.0.0.1:$PORT
-                
+          npm install -g pm2  
+          npm start & npx wait-on http://127.0.0.1:$PORT # requires MongoDB Atlas to accept requests from anywhere!
+      
       - name: Run tests
         run: npm test
         working-directory: action-reaction-project
