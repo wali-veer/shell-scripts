@@ -1,0 +1,108 @@
+name: Artifacts of website
+
+on:
+  # push:
+  #   branches:
+  #     - main
+  workflow_dispatch:
+
+jobs:
+
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: action-reaction-project
+
+      - name: Lint code
+        run: npm run lint
+        working-directory: action-reaction-project
+
+      - name: Run tests
+        run: npm test
+        working-directory: action-reaction-project
+
+
+  codeql:
+    name: CodeQL Security Analysis
+    runs-on: ubuntu-latest
+
+    permissions:
+      security-events: write
+      packages: read
+      actions: read
+      contents: read
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Initialize CodeQL
+        uses: github/codeql-action/init@v3
+        with:
+          languages: javascript-typescript
+
+      - name: Autobuild
+        uses: github/codeql-action/autobuild@v3
+
+      - name: Perform CodeQL Analysis
+        uses: github/codeql-action/analyze@v3
+        with:
+          category: "/language:javascript-typescript"
+
+
+  build:
+    needs: test
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Install NodeJS
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm ci
+        working-directory: action-reaction-project
+
+      - name: Build Project
+        run: npm run build
+        working-directory: action-reaction-project
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: build-artifact
+          path: |
+            action-reaction-project/dist
+            action-reaction-project/package.json
+
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Download artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: build-artifact
+
+      - name: List the downloaded files
+        run: ls -R
+
+      - name: Deploy Success
+        run: echo "Deployment Successful"
